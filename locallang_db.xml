@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'com_advanced_products'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_commerce_attribute_values.tx_comadvancedproducts_extra_charge">extended product price</label>
+			<label index="tx_commerce_attribute_values.tx_comadvancedproducts_ordernumber_ext">extended ordernumber</label>
+			<label index="tx_commerce_attributes.tx_comadvancedproducts_ordernumber_ext_prio">extended ordernumber priority</label>
+			<label index="tx_commerce_products.tx_comadvancedproducts_products_prices">global product price</label>
+			<label index="tx_commerce_products.tx_comadvancedproducts_products_ordernr">global order number</label>
+			<label index="tx_commerce_products.tx_comadvancedproducts_article_options">Article options</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_commerce_attribute_values.tx_comadvancedproducts_extra_charge">Aufpreis</label>
+			<label index="tx_commerce_attribute_values.tx_comadvancedproducts_ordernumber_ext">Bestellnummer Erweiterung</label>
+			<label index="tx_commerce_attributes.tx_comadvancedproducts_ordernumber_ext_prio">Priorität der Bestellnummer-Erweiterung</label>
+			<label index="tx_commerce_products.tx_comadvancedproducts_products_prices">Globaler Produktpreis</label>
+			<label index="tx_commerce_products.tx_comadvancedproducts_products_ordernr">Globale Bestellnummer</label>
+			<label index="tx_commerce_products.tx_comadvancedproducts_article_options">Artikel Optionen</label>
+		</languageKey>
+	</data>
+</T3locallang>
