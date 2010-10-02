@@ -94,7 +94,7 @@ $TCA['tx_commerce_attributes_prices'] = Array (
 		),
 		'price_gross' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_attributes_prices.price_gross',
+			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_article_prices.price_gross',
 			'l10n_mode' => 'exclude',
 			'config' => Array (
 				'type' => 'input',
@@ -104,7 +104,7 @@ $TCA['tx_commerce_attributes_prices'] = Array (
 		),
 		'price_net' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_attributes_prices.price_net',
+			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_article_prices.price_net',
 			'l10n_mode' => 'exclude',
 			'config' => Array (
 				'type' => 'input',
@@ -115,7 +115,7 @@ $TCA['tx_commerce_attributes_prices'] = Array (
 		
 		'purchase_price' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_attributes_prices.purchase_price',
+			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_article_prices.purchase_price',
 			'l10n_mode' => 'exclude',
 			'config' => Array (
 				'type' => 'input',
@@ -149,7 +149,7 @@ $TCA['tx_commerce_attributes_prices'] = Array (
 		),
 		'purchase_price' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_attributes_prices.purchase_price',
+			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_article_prices.purchase_price',
 			'l10n_mode' => 'exclude',
 			'config' => Array (
 				'type' => 'input',
@@ -157,7 +157,7 @@ $TCA['tx_commerce_attributes_prices'] = Array (
 				'eval' => 'double2,nospace',
 			)
 		),
-		'uid_article' => Array(
+		'uid_attribute_value' => Array(
 			'exclude' => 1,
 			'l10n_mode' => 'exclude',
 			'label' => 'ArtcleValue UID',
@@ -270,7 +270,7 @@ $TCA["tx_commerce_products_prices"] = array (
 		),
 		'price_gross' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_products_prices.price_gross',
+			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_article_prices.price_gross',
 			'l10n_mode' => 'exclude',
 			'config' => Array (
 				'type' => 'input',
@@ -280,7 +280,7 @@ $TCA["tx_commerce_products_prices"] = array (
 		),
 		'price_net' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_products_prices.price_net',
+			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_article_prices.price_net',
 			'l10n_mode' => 'exclude',
 			'config' => Array (
 				'type' => 'input',
@@ -291,7 +291,7 @@ $TCA["tx_commerce_products_prices"] = array (
 		
 		'purchase_price' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_products_prices.purchase_price',
+			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_article_prices.purchase_price',
 			'l10n_mode' => 'exclude',
 			'config' => Array (
 				'type' => 'input',
@@ -325,7 +325,7 @@ $TCA["tx_commerce_products_prices"] = array (
 		),
 		'purchase_price' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_products_prices.purchase_price',
+			'label' => 'LLL:EXT:commerce/locallang_db.xml:tx_commerce_article_prices.purchase_price',
 			'l10n_mode' => 'exclude',
 			'config' => Array (
 				'type' => 'input',
